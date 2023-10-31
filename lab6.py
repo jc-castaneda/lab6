@@ -1,4 +1,6 @@
+#Juan Carlos Castaneda
 
+#Encodes 8digit password using a 3shift
 def encoder(pwd):
 
     encoded_pwd = ''
@@ -9,6 +11,3 @@ def encoder(pwd):
 
 
 
-
-if __name__ == "__main__":
-    encoder()
