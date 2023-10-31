@@ -11,3 +11,11 @@ def encoder(pwd):
 
 
 
+def decoder(pwd):
+
+    decoded_pwd = ''
+
+    for char in pwd:
+        encoded_pwd += str(int(char) - 3)
+
+    return decoded_pwd
